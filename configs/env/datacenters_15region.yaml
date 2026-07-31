@@ -1,0 +1,135 @@
+datacenters:
+  - dc_id: 1
+    location: "US-CAL-CISO"
+    timezone_shift: -7
+    population_weight: 1.0
+    total_cores: 50000
+    total_gpus: 1000
+    total_mem: 80000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 2
+    location: "US-NY-NYIS"
+    timezone_shift: -4
+    population_weight: 1.0
+    total_cores: 50000
+    total_gpus: 1000
+    total_mem: 80000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 3
+    location: "US-TEX-ERCO"
+    timezone_shift: -5
+    population_weight: 1.0
+    total_cores: 65000
+    total_gpus: 900
+    total_mem: 90000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 4
+    location: "US-MIDA-PJM"
+    timezone_shift: -4
+    population_weight: 1.0
+    total_cores: 75000
+    total_gpus: 800
+    total_mem: 100000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 5
+    location: "CA-ON"
+    timezone_shift: -4
+    population_weight: 1.0
+    total_cores: 65000
+    total_gpus: 700
+    total_mem: 80000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 6
+    location: "DE-LU"
+    timezone_shift: 1
+    population_weight: 1.0
+    total_cores: 85000
+    total_gpus: 600
+    total_mem: 80000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 7
+    location: "JP-TK"
+    timezone_shift: 9
+    population_weight: 1.0
+    total_cores: 70000
+    total_gpus: 700
+    total_mem: 70000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 8
+    location: "KR"
+    timezone_shift: 9
+    population_weight: 1.0
+    total_cores: 70000
+    total_gpus: 700
+    total_mem: 70000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 9
+    location: "SG"
+    timezone_shift: 8
+    population_weight: 1.0
+    total_cores: 75000
+    total_gpus: 700
+    total_mem: 50000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 10
+    location: "IN-WE"
+    timezone_shift: 5.5
+    population_weight: 1.0
+    total_cores: 90000
+    total_gpus: 700
+    total_mem: 90000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 11
+    location: "AU-NSW"
+    timezone_shift: 11
+    population_weight: 1.0
+    total_cores: 65000
+    total_gpus: 300
+    total_mem: 60000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 12
+    location: "AU-VIC"
+    timezone_shift: 11
+    population_weight: 1.0
+    total_cores: 65000
+    total_gpus: 300
+    total_mem: 60000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 13
+    location: "BR-SP"
+    timezone_shift: -3
+    population_weight: 1.0
+    total_cores: 65000
+    total_gpus: 600
+    total_mem: 80000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 14
+    location: "CL-SIC"
+    timezone_shift: -5
+    population_weight: 1.0
+    total_cores: 110000
+    total_gpus: 300
+    total_mem: 60000
+    dc_config_file: "configs/dcs/dc_config.json"
+
+  - dc_id: 15
+    location: "ZA"
+    timezone_shift: 2
+    population_weight: 1.0
+    total_cores: 65000
+    total_gpus: 500
+    total_mem: 80000
+    dc_config_file: "configs/dcs/dc_config.json"

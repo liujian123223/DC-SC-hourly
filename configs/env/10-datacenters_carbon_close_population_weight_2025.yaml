@@ -1,0 +1,93 @@
+# Ten-country subset selected from the 24-country scenario by the tightest
+# contiguous annual mean carbon-intensity window in 2023 diagnostics.
+datacenters:
+  - dc_id: 1
+    location: "UAE"
+    timezone_shift: 4
+    it_ratio_weitgh: 0.001415835561
+    population_weight: 0.005451574803
+    total_cores: 465
+    total_gpus: 4
+    total_mem: 399
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 2
+    location: "Germany"
+    timezone_shift: 1
+    it_ratio_weitgh: 0.026428930466
+    population_weight: 0.040396753083
+    total_cores: 8676
+    total_gpus: 65
+    total_mem: 7437
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 3
+    location: "Ireland"
+    timezone_shift: 0
+    it_ratio_weitgh: 0.005506027181
+    population_weight: 0.002550429372
+    total_cores: 1808
+    total_gpus: 14
+    total_mem: 1549
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 4
+    location: "USA"
+    timezone_shift: -5
+    it_ratio_weitgh: 0.580368363916
+    population_weight: 0.166860571069
+    total_cores: 190531
+    total_gpus: 1435
+    total_mem: 163312
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 5
+    location: "Singapore"
+    timezone_shift: 8
+    it_ratio_weitgh: 0.007865753115
+    population_weight: 0.002820803170
+    total_cores: 2582
+    total_gpus: 19
+    total_mem: 2213
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 6
+    location: "South_Korea"
+    timezone_shift: 9
+    it_ratio_weitgh: 0.010540109174
+    population_weight: 0.024825195970
+    total_cores: 3460
+    total_gpus: 26
+    total_mem: 2966
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 7
+    location: "Japan"
+    timezone_shift: 9
+    it_ratio_weitgh: 0.027058190716
+    population_weight: 0.059149288239
+    total_cores: 8883
+    total_gpus: 67
+    total_mem: 7614
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 8
+    location: "Israel"
+    timezone_shift: 2
+    it_ratio_weitgh: 0.000786575312
+    population_weight: 0.004572855996
+    total_cores: 258
+    total_gpus: 2
+    total_mem: 221
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 9
+    location: "Australia"
+    timezone_shift: 10
+    it_ratio_weitgh: 0.028945971463
+    population_weight: 0.012960595847
+    total_cores: 9503
+    total_gpus: 72
+    total_mem: 8145
+    dc_config_file: "configs/dcs/dc_config.json"
+  - dc_id: 10
+    location: "China"
+    timezone_shift: 8
+    it_ratio_weitgh: 0.311084243097
+    population_weight: 0.680411932450
+    total_cores: 102127
+    total_gpus: 769
+    total_mem: 87537
+    dc_config_file: "configs/dcs/dc_config.json"

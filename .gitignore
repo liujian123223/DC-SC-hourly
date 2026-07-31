@@ -1,0 +1,12 @@
+data/
+results/
+__pycache__/
+*.py[cod]
+*.pyo
+
+.env
+.venv/
+venv/
+
+.agents/
+.codex/

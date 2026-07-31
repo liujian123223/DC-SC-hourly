@@ -1,0 +1,28 @@
+algorithm:
+  name: SAC
+  gamma: 0.99
+  alpha: 0.01
+  actor_learning_rate: 3e-4
+  critic_learning_rate: 3e-4
+  batch_size: 4
+  tau: 0.005
+  replay_buffer_size: 1000
+  warmup_steps: 2
+  total_steps: 20
+  update_frequency: 1
+  policy_update_frequency: 2
+  save_interval: 10
+  log_interval: 1
+  hidden_dim: 64
+  use_layer_norm: true
+  max_tasks: 100
+  device: auto
+  eval_frequency: 10
+  eval_episodes: 1
+  use_attention: false
+  attention:
+    embed_dim: 64
+    num_heads: 1
+    num_attention_layers: 1
+    hidden_dim_ff: 64
+    dropout: 0.1
